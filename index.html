@@ -18,27 +18,34 @@
 
 <body>
     <!-- Navigation-->
-   <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
-            
+
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">Whiskey Drop</a>
+            
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
             </div>
-            
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></a>
-                </li>
-                <li class="visible-xs"><a href="#">Sign In</a></li>
-            </ul>
-            
-            <div class="navbar-header navbar-right hidden-xs">
-                <a href="#" class="btn btn-default navbar-btn btn--orange">Sign Up!</a>
-                <p class="navbar-text"><i>Great whiskey delivered to your door.</i></p>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="visible-xs"><a href="#">Sign In</a></li>
+                </ul>
+
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="#" class="btn btn-default navbar-btn btn--orange hidden-xs">Sign Up!</a>
+                    <p class="navbar-text hidden-xs"><i>Great whiskey delivered to your door.</i></p>
+                </div>
             </div>
         </div>
     </nav>
-    
+
     <!-- Alert-->
     <!--<div class="container alert-container">
         <div class="row hidden-xs">
