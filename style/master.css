@@ -2,9 +2,38 @@ body{
 font-family: 'Raleway', sans-serif;
 }
 
+/*Navigation Styles*/
+.navbar{
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #0000008c;
+    border-color: #0000008c;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover{
+    font-weight: bold;
+    color: #dcd8d8;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+    background-color: transparent;
+    color: #dcd8d8;
+}
+
+
+/*Alert Styles*/
 .alert-container{
     
 }
+
+/*Callout styles*/
 
 .callout-container{
     height: 100vh;
@@ -16,8 +45,13 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     align-items: center;
 }
+.callout{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-/*Jumbotron*/
+/*Jumbotron stylesS*/
 
 .jumbotron{
     background-color: #000000b8;
@@ -49,8 +83,17 @@ font-family: 'Raleway', sans-serif;
 .btn--orange{
     background-color: #ce5e02;
     border-color: #ce5e02;
+    color: white;
 }
 
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus{
+    background-color: #ce5e02;
+    border-color: #ce5e02;
+    color: #d6d6d6;
+}
 
 
 .customer-feedback-container{
