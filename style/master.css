@@ -20,7 +20,10 @@ font-family: 'Raleway', sans-serif;
     color: #dcd8d8;
 }
 
-.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    color: #dcd8d8;
+}
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus{
     background-color: transparent;
@@ -29,11 +32,38 @@ font-family: 'Raleway', sans-serif;
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus{
-    color: #dcd8d8;
+    color: #f0efef;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse{
+    border-color: #f8a470;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
 /*Alert Styles*/
-.alert-container{
-    
+.alert-container .col-xs-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.alert{
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.alert-sitewide {
+    color: #452e04;
+    background-color: #cf9325;
+    border-color: #cf9325;
+}
+
+.alert-link {
+    color: #0c2d49b8;
+    text-decoration: none;
 }
 
 /*Callout styles*/
@@ -47,6 +77,7 @@ font-family: 'Raleway', sans-serif;
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .callout{
     margin-left: auto;
@@ -56,9 +87,15 @@ font-family: 'Raleway', sans-serif;
 
 /*Jumbotron stylesS*/
 
+/*.container-fluid .jumbotron {
+    margin-top: 10%;
+    padding-right: 60px;
+    padding-left: 60px;
+}*/
 .jumbotron{
     background-color: #000000b8;
     color: #f5f5f0;
+    margin-top: 10%;
 }
 
 .jumbotron h1{
@@ -80,7 +117,7 @@ font-family: 'Raleway', sans-serif;
 
 .btn--cta{
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 4px;
 }
 
 .btn--orange{
@@ -98,13 +135,41 @@ font-family: 'Raleway', sans-serif;
     color: #d6d6d6;
 }
 
-
+/*Headings*/
+.page-header{
+    text-align: center;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #4b4040;
+}
+.page-header-white{
+    border-bottom: 1px solid white;
+}
+/*Layout*/
+.container-wrapper{
+    
+}
+.container-wrapper-orange{
+    background-color: #e3651bd4;
+    color: white;
+}
+.seperation{
+    margin-bottom: 15%;
+}
 .customer-feedback-container{
 
 }
+/*Labels*/
+.label-success {
+    background-color: #313f31;
+}
+/*Features*/
+.feature{
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 .features-container{
-    
+    height: 164px;
 }
 
 .monthly-favourites-container{
